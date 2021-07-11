@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #424242;
+}
+
+.tag-app {
+    font-family: 'Trebuchet MS';
+    color: black;
+    font-weight: bolder;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    padding: 12px;
+    height: 80px;
+    font-family: sans-serif;
+}
+
+.navbar-link {
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: #424242;
+    align-self: center;
+}
+
+.logo img {
+    width: 128px;
+}
+
+.logo:hover{
+    color: orange;
+}
+
+.navbar-items a {
+    display: inline-block;
+    padding: 24px;
+    text-decoration: none;
+    color: #424242;
+}
+
+.navbar-items a:hover {
+    color: white;
+    background-color: orange;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.navbar-items-right {
+    margin-left: auto;
+}
+
+.navbar-link-toggle {
+    display: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.header-menu {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    color: orange;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 380px;
+    width: 100%;
+    text-align: center;
+    background-image: url("../public/images/heros/hero-image_4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: green;
+}
+
+.hero-inner {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: orange;
+    border-radius: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.hero-title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.hero-tagline {
+    color: #fff;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*
+ * content
+ */
+
+.content {
+    padding: 32px;
+}
+
+/*
+ * explore
+ */
+
+.explore {
+    width: 100%;
+    text-align: center;
+}
+
+.explore-label {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.explore-label::after {
+    content: '';
+    margin-top: 2rem;
+    display: block;
+    border-bottom: 1px solid #424242;
+}
+
+/*
+ * post
+ */
+
+.posts {
+    margin: 32px auto auto;
+    text-align: left;
+}
+
+/*
+ * footer
+ */
+
+footer {
+    background-color: orange;
+    padding: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+footer ul {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+footer {
+    display: inline-block;
+    padding: 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
